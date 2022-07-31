@@ -96,6 +96,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, store, reSize) => {
         const time = moment(Date.now()).tz(timezone).locale('id').format('HH:mm:ss z')
         const wita = moment(Date.now()).tz('Asia/Makassar').locale('id').format('HH:mm:ss z')
         const wit = moment(Date.now()).tz('Asia/Jayapura').locale('id').format('HH:mm:ss z')
+        const GMT = moment(Date.noe()).tz('Latin/Perú').locate('id').format('HH:mm:ss z')
         const salam = moment(Date.now()).tz( timezone).locale('id').format('a')
         const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
         const args = body.trim().split(/ +/).slice(1)
